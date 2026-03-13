@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open login.html",
+            "file": "${workspaceFolder}/finance-tracker-frontend/login.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open dashboard.html",
+            "file": "${workspaceFolder}/finance-tracker-frontend/dashboard.html"
+        },
+        {
+            "name": "Launch Chrome on localhost",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
